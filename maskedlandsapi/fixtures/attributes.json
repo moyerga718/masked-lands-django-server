@@ -1,0 +1,44 @@
+[
+    {
+        "model": "maskedlandsapi.attribute",
+        "pk": 1,
+        "fields": {
+            "name": "Strength"
+        }
+    },
+    {
+        "model": "maskedlandsapi.attribute",
+        "pk": 2,
+        "fields": {
+            "name": "Dexterity"
+        }
+    },
+    {
+        "model": "maskedlandsapi.attribute",
+        "pk": 3,
+        "fields": {
+            "name": "Constitution"
+        }
+    },
+    {
+        "model": "maskedlandsapi.attribute",
+        "pk": 4,
+        "fields": {
+            "name": "Intelligence"
+        }
+    },
+    {
+        "model": "maskedlandsapi.attribute",
+        "pk": 5,
+        "fields": {
+            "name": "Attunement"
+        }
+    },
+    {
+        "model": "maskedlandsapi.attribute",
+        "pk": 6,
+        "fields": {
+            "name": "Charisma"
+        }
+    }
+]

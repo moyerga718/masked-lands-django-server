@@ -1,0 +1,30 @@
+[
+    {
+        "model": "maskedlandsapi.actiontype",
+        "pk": 1,
+        "fields": {
+            "name": "Standard Action"
+        }
+    },
+    {
+        "model": "maskedlandsapi.actiontype",
+        "pk": 2,
+        "fields": {
+            "name": "Passive Ability"
+        }
+    },
+    {
+        "model": "maskedlandsapi.actiontype",
+        "pk": 3,
+        "fields": {
+            "name": "Bonus Action"
+        }
+    },
+    {
+        "model": "maskedlandsapi.actiontype",
+        "pk": 4,
+        "fields": {
+            "name": "Reaction"
+        }
+    }
+]

@@ -1,0 +1,63 @@
+[
+    {
+        "model": "maskedlandsapi.combatclass",
+        "pk": 1,
+        "fields": {
+            "name": "Mercenary",
+            "description": "A master of the battlefield",
+            "primary_attribute": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656530637/Class/Mercenary/mercenary-3_ib1mfl.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.combatclass",
+        "pk": 2,
+        "fields": {
+            "name": "Outlaw",
+            "description": "A quick, patient, and deadly marksman with a mean-streak and a temper to match.",
+            "primary_attribute": 2,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656548199/Class/Outlaw/outlaw-3_mqwpe5.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.combatclass",
+        "pk": 3,
+        "fields": {
+            "name": "Arcanist",
+            "description": "A deadly fighter whose strength is sourced from their burning blood",
+            "primary_attribute": 3,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656530636/Class/Arcanist/arcanist-2_f9etay.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.combatclass",
+        "pk": 4,
+        "fields": {
+            "name": "Tinker",
+            "description": "A craftsman whose artificed wonders and miraculous alchemical compounds are a wonder to behold.",
+            "primary_attribute": 4,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656530638/Class/Tinker/tinker-1_qwrkrt.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.combatclass",
+        "pk": 5,
+        "fields": {
+            "id": 5,
+            "name": "Channeler",
+            "description": "A vessel of the Gods. Channel the power of the Circle through your fingertips.",
+            "primary_attribute": 5,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656530636/Class/Channeler/dnd-wizbuild-coverimg_jbgew7.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.combatclass",
+        "pk": 6,
+        "fields": {
+            "name": "Singer",
+            "description": "A charming rogue with a knack for performance and subterfuge.",
+            "primary_attribute": 6,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656548410/Class/Singer/singer_bqxpzp.jpg"
+        }
+    }
+]

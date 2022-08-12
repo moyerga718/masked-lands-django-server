@@ -1,0 +1,171 @@
+[
+    {
+        "model": "maskedlandsapi.armor",
+        "pk": 1,
+        "fields": {
+            "name": "Padded Clothing",
+            "armor_type": 1,
+            "base_ac": 11,
+            "dex_bonus": true,
+            "bonus_cap": 0,
+            "strength_requirement": 0,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620607/armor/1-padded-clothes_kvlejy.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.armor",
+        "pk": 2,
+        "fields": {
+            "name": "Fitted Leather Armor",
+            "armor_type": 1,
+            "base_ac": 12,
+            "dex_bonus": true,
+            "bonus_cap": 0,
+            "strength_requirement": 0,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620607/armor/2-fitted-leather-armor_pvv4fv.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.armor",
+        "pk": 3,
+        "fields": {
+            "name": "Leather Duster",
+            "armor_type": 2,
+            "base_ac": 12,
+            "dex_bonus": true,
+            "bonus_cap": 2,
+            "strength_requirement": 0,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620607/armor/3-leather-duster_mujrgx.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.armor",
+        "pk": 4,
+        "fields": {
+            "name": "Reinforced Leather Armor",
+            "armor_type": 2,
+            "base_ac": 13,
+            "dex_bonus": true,
+            "bonus_cap": 2,
+            "strength_requirement": 0,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620607/armor/4-reinforced-leather_ff8ebm.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.armor",
+        "pk": 5,
+        "fields": {
+            "name": "Steel Banded Armor",
+            "armor_type": 2,
+            "base_ac": 14,
+            "dex_bonus": true,
+            "bonus_cap": 2,
+            "strength_requirement": 0,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620607/armor/5-steel-banded_rzy70c.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.armor",
+        "pk": 6,
+        "fields": {
+            "name": "Armored Duster",
+            "armor_type": 2,
+            "base_ac": 14,
+            "dex_bonus": true,
+            "bonus_cap": 2,
+            "strength_requirement": 0,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620607/armor/6-armored_duster_fhkmku.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.armor",
+        "pk": 7,
+        "fields": {
+            "name": "Steelsilk-woven Armor",
+            "armor_type": 2,
+            "base_ac": 15,
+            "dex_bonus": true,
+            "bonus_cap": 2,
+            "strength_requirement": 0,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620607/armor/7-steelsilk_r0h56o.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.armor",
+        "pk": 8,
+        "fields": {
+            "name": "Antique Armor",
+            "armor_type": 3,
+            "base_ac": 15,
+            "dex_bonus": false,
+            "bonus_cap": 0,
+            "strength_requirement": 0,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620607/armor/8-antique_x12lqd.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.armor",
+        "pk": 9,
+        "fields": {
+            "name": "Knight's Armor",
+            "armor_type": 3,
+            "base_ac": 16,
+            "dex_bonus": false,
+            "bonus_cap": 0,
+            "strength_requirement": 13,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620607/armor/9-knights-armor_yy8hv7.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.armor",
+        "pk": 10,
+        "fields": {
+            "name": "Ornate Armor",
+            "armor_type": 3,
+            "base_ac": 17,
+            "dex_bonus": false,
+            "bonus_cap": 0,
+            "strength_requirement": 15,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620607/armor/10-ornate_zfhx3e.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.armor",
+        "pk": 11,
+        "fields": {
+            "name": "Warfighter's Armor",
+            "armor_type": 3,
+            "base_ac": 18,
+            "dex_bonus": false,
+            "bonus_cap": 0,
+            "strength_requirement": 7,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620607/armor/11-warfighter_l2vmeu.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.armor",
+        "pk": 12,
+        "fields": {
+            "name": "Traveler's Clothes",
+            "armor_type": 4,
+            "base_ac": 10,
+            "dex_bonus": false,
+            "bonus_cap": 0,
+            "strength_requirement": 0,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620607/armor/12-travelers_clothes_vx2y8i.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.armor",
+        "pk": 13,
+        "fields": {
+            "name": "Religious Attire",
+            "armor_type": 4,
+            "base_ac": 10,
+            "dex_bonus": false,
+            "bonus_cap": 0,
+            "strength_requirement": 0,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620607/armor/13-religious-attire_kwqjw4.png"
+        }
+    }
+]

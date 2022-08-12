@@ -1,0 +1,68 @@
+[
+    {
+        "model": "maskedlandsapi.species",
+        "pk": 1,
+        "fields": {
+            "name": "Arenite",
+            "description": "An old and proud race of wanderers, originating from the dry, grassy island of Arkose",
+            "primary_attribute": 1,
+            "speed": 30,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656547593/Species/Arenite/image2_rcjaxn.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.species",
+        "pk": 2,
+        "fields": {
+            "name": "Jelid",
+            "description": "The chosen people of Escritorio",
+            "primary_attribute": 2,
+            "speed": 30,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656530580/Species/Jelid/image1_spmt5f.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.species",
+        "pk": 3,
+        "fields": {
+            "name": "Goge",
+            "description": "Good and big, the Goge are a hardy people who have made their home in Goge's Staircase",
+            "primary_attribute": 3,
+            "speed": 30,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656530580/Species/Goge/image2_u2qekr.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.species",
+        "pk": 4,
+        "fields": {
+            "name": "El Dun",
+            "description": "What they don't have in size, El-Dun make up for in brain power. Need something fixed? Find an El-Dun",
+            "primary_attribute": 4,
+            "speed": 25,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656530579/Species/El%20Dun/image1_dmykzf.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.species",
+        "pk": 5,
+        "fields": {
+            "name": "Vir",
+            "description": "Instantly recognizable with grey ashen skin and snow white hair, the Vir are an ancient race dedicated to fervent worship of the Circle",
+            "primary_attribute": 5,
+            "speed": 30,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656544435/Species/Vir/vir_citizen_ampgyw.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.species",
+        "pk": 6,
+        "fields": {
+            "name": "Haima",
+            "description": "Short... pasty... portly... the life of the party? No one makes a better entertainer (or businessman) than a Haima",
+            "primary_attribute": 6,
+            "speed": 25,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656530580/Species/Haima/image1_rxweke.png"
+        }
+    }
+]

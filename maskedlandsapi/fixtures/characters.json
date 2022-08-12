@@ -1,0 +1,18 @@
+[
+    {
+        "model": "maskedlandsapi.character",
+        "pk": 1,
+        "fields": {
+            "name": "Jermaine Jangle",
+            "user": 1,
+            "xp": 0,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656001534/Character%20Images/hdxoscoynleqbh7q50qg.jpg",
+            "species": 3,
+            "background": 14,
+            "combat_class": 1,
+            "subclass": 2,
+            "weapon": 5,
+            "armor": 3
+        }
+    }
+]

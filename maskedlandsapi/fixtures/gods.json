@@ -1,0 +1,80 @@
+[
+    {
+        "model": "maskedlandsapi.god",
+        "pk": 1,
+        "fields": {
+            "name": "Sunface",
+            "short_name": "Sunface",
+            "icon_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1657060708/god%20icons/sun-icon_jesfnk.png",
+            "description": "Matron deity of the Arenite people. She represents the heat and light of each dawn, the flourishing of life, and the beginning of a new day. Her devotees channel her to create flames from nothingness and manipulate the heat of the world around them.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656690713/god%20icons/sunface-cropped_cli4l8.jpg",
+            "alignment": "True Sustainable",
+            "rgb": "212, 14, 8"
+        }
+    },
+    {
+        "model": "maskedlandsapi.god",
+        "pk": 2,
+        "fields": {
+            "name": "Moonface",
+            "short_name": "Moonface",
+            "icon_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1657060708/god%20icons/moon-icon_hwljar.png",
+            "description": "Patron deity of the El-Dun people. He represents the darkness of night, the glow of the unknown, and the end of each known day. His devotees channel him to create powerful beams of cosmic energy and bring about the black of the beyond to swallow their foes.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656690713/god%20icons/moonface-cropped_ydiqym.jpg",
+            "alignment": "True Balance",
+            "rgb": "37, 92, 153"
+        }
+    },
+    {
+        "model": "maskedlandsapi.god",
+        "pk": 3,
+        "fields": {
+            "name": "Escritorio",
+            "short_name": "Escritorio",
+            "icon_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1657060708/god%20icons/leaf-icon_ghgsri.png",
+            "description": "Patron deity of the Jelid people and the twin brother of Goge. He determines the cycle of life, the never-ending change of the seasons, the currents, the weather, and the revolution of the new over the old. His Devotees channel him to twist the elements of life and to alter their own form.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656690714/god%20icons/escritorio_pic_qduwuw.png",
+            "alignment": "Sustainable Chaos",
+            "rgb": "89, 205, 144"
+        }
+    },
+    {
+        "model": "maskedlandsapi.god",
+        "pk": 4,
+        "fields": {
+            "name": "Goge, the Architect",
+            "short_name": "Goge",
+            "icon_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1657060708/god%20icons/gooooge-icon_qijznk.png",
+            "description": "Patron deity of the Goge people and the twin brother of Escritorio. He represents the unchanging mountain cliff, the strength of unity and constancy, and the slow, undaunted churning of the earth. His devotees channel him to shape the stones and to bring tectonic destruction from beneath the feet of their foes.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656690714/god%20icons/goge-cropped_a3iqfc.jpg",
+            "alignment": "True Order",
+            "rgb": "97, 33, 15"
+        }
+    },
+    {
+        "model": "maskedlandsapi.god",
+        "pk": 5,
+        "fields": {
+            "name": "Faelina of Light",
+            "short_name": "Faelina",
+            "icon_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1657060708/god%20icons/better-radiant-icon_n9dkl0.png",
+            "description": "One of the two ascended Human deities. She represents the light of knowledge, kindness to a stranger, and the power of goodness to overcome cruelty. Her devotees channel her to cast powerful healing magics and to devastate their foes with her scintillating light. ",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656690714/god%20icons/faelina-crop-2_uln3xu.png",
+            "alignment": "Ordered Sustainable",
+            "rgb": "248, 213, 122"
+        }
+    },
+    {
+        "model": "maskedlandsapi.god",
+        "pk": 6,
+        "fields": {
+            "name": "Garthank, the Trickster",
+            "short_name": "Garthank",
+            "icon_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1657060708/god%20icons/dice-icon_bpunna.png",
+            "description": "One of the two ascended Human deities. He represents the vicissitudes of fate, the whims of chance, and a short but pleasurable life. His devotees channel him to load the dice in their favor and to play tricks on their friends and foes alike. ",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656690714/god%20icons/garthank-crop_h6y6ot.jpg",
+            "alignment": "True Chaos",
+            "rgb": "74, 37, 69"
+        }
+    }
+]

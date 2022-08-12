@@ -1,0 +1,30 @@
+[
+    {
+        "model": "maskedlandsapi.armortype",
+        "pk": 1,
+        "fields": {
+            "name": "Light Armor"
+        }
+    },
+    {
+        "model": "maskedlandsapi.armortype",
+        "pk": 2,
+        "fields": {
+            "name": "Medium Armor"
+        }
+    },
+    {
+        "model": "maskedlandsapi.armortype",
+        "pk": 3,
+        "fields": {
+            "name": "Heavy Armor"
+        }
+    },
+    {
+        "model": "maskedlandsapi.armortype",
+        "pk": 4,
+        "fields": {
+            "name": "Plainclothes"
+        }
+    }
+]

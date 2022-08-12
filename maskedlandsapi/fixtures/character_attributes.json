@@ -1,0 +1,56 @@
+[
+    {
+        "model": "maskedlandsapi.characterattribute",
+        "pk": 1,
+        "fields": {
+            "character": 1,
+            "attribute": 1,
+            "value": 14
+        }
+    },
+    {
+        "model": "maskedlandsapi.characterattribute",
+        "pk": 2,
+        "fields": {
+            "character": 1,
+            "attribute": 2,
+            "value": 14
+        }
+    },
+    {
+        "model": "maskedlandsapi.characterattribute",
+        "pk": 3,
+        "fields": {
+            "character": 1,
+            "attribute": 3,
+            "value": 13
+        }
+    },
+    {
+        "model": "maskedlandsapi.characterattribute",
+        "pk": 4,
+        "fields": {
+            "character": 1,
+            "attribute": 4,
+            "value": 6
+        }
+    },
+    {
+        "model": "maskedlandsapi.characterattribute",
+        "pk": 5,
+        "fields": {
+            "character": 1,
+            "attribute": 5,
+            "value": 7
+        }
+    },
+    {
+        "model": "maskedlandsapi.characterattribute",
+        "pk": 6,
+        "fields": {
+            "character": 1,
+            "attribute": 6,
+            "value": 13
+        }
+    }
+]

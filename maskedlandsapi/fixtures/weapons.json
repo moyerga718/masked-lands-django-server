@@ -1,0 +1,494 @@
+[
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 1,
+        "fields": {
+            "name": "Hatchet",
+            "weapon_type": 2,
+            "attribute": 1,
+            "damage_die": 4,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620663/weapons/1-hatchet_bodvng.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 2,
+        "fields": {
+            "name": "Club",
+            "weapon_type": 2,
+            "attribute": 1,
+            "damage_die": 4,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620655/weapons/2-club_c9mmun.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 3,
+        "fields": {
+            "name": "Mace",
+            "weapon_type": 2,
+            "attribute": 1,
+            "damage_die": 6,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620655/weapons/3-mace_ggylbe.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 4,
+        "fields": {
+            "name": "Staff",
+            "weapon_type": 2,
+            "attribute": 1,
+            "damage_die": 4,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620663/weapons/4-staff_ouzyed.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 5,
+        "fields": {
+            "name": "Greatclub",
+            "weapon_type": 2,
+            "attribute": 1,
+            "damage_die": 8,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620663/weapons/5-greatclub_b8rjmt.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 6,
+        "fields": {
+            "name": "Dagger",
+            "weapon_type": 2,
+            "attribute": 2,
+            "damage_die": 4,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620649/weapons/6-dagger_wulxqe.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 7,
+        "fields": {
+            "name": "Machete",
+            "weapon_type": 2,
+            "attribute": 2,
+            "damage_die": 6,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620649/weapons/7-machete_oibbxx.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 8,
+        "fields": {
+            "name": "Spear",
+            "weapon_type": 2,
+            "attribute": 2,
+            "damage_die": 6,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620649/weapons/8-spear_r0tmn1.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 9,
+        "fields": {
+            "name": "Brass Knuckles",
+            "weapon_type": 1,
+            "attribute": 1,
+            "damage_die": 4,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620656/weapons/9-brass-knuckles_hbfph7.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 10,
+        "fields": {
+            "name": "Fist",
+            "weapon_type": 9,
+            "attribute": 1,
+            "damage_die": 2,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620649/weapons/10-fist_aeisaz.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 11,
+        "fields": {
+            "name": "Assassin's Claws",
+            "weapon_type": 1,
+            "attribute": 2,
+            "damage_die": 6,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620657/weapons/11-claws_nck2zw.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 12,
+        "fields": {
+            "name": "Shortbow",
+            "weapon_type": 3,
+            "attribute": 2,
+            "damage_die": 4,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620661/weapons/12-shortbow_pxrsge.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 13,
+        "fields": {
+            "name": "Hunting Bow",
+            "weapon_type": 3,
+            "attribute": 2,
+            "damage_die": 6,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620661/weapons/13-hunting-bow_m6y0de.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 14,
+        "fields": {
+            "name": "Flintlock Pistol",
+            "weapon_type": 3,
+            "attribute": 2,
+            "damage_die": 6,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620661/weapons/14-flintlock-pistol_gihqje.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 15,
+        "fields": {
+            "name": "Flintlock Rifle",
+            "weapon_type": 3,
+            "attribute": 2,
+            "damage_die": 8,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620661/weapons/15-flintlock-rifle_bzcxke.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 16,
+        "fields": {
+            "name": "Blunderbuss",
+            "weapon_type": 3,
+            "attribute": 2,
+            "damage_die": 6,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620662/weapons/16-blunderbuss_lqq2y9.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 17,
+        "fields": {
+            "name": "Battle Axe",
+            "weapon_type": 4,
+            "attribute": 1,
+            "damage_die": 8,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620649/weapons/17-battle-axe_fyqabh.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 18,
+        "fields": {
+            "name": "Greataxe",
+            "weapon_type": 4,
+            "attribute": 1,
+            "damage_die": 6,
+            "number_of_damage_die": 2,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620649/weapons/18-greataxe_zoyfpi.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 19,
+        "fields": {
+            "name": "Halberd",
+            "weapon_type": 4,
+            "attribute": 1,
+            "damage_die": 10,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620649/weapons/19-halberd_zal4yc.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 20,
+        "fields": {
+            "name": "Claymore",
+            "weapon_type": 4,
+            "attribute": 1,
+            "damage_die": 6,
+            "number_of_damage_die": 2,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620649/weapons/20-claymore_aa7swj.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 21,
+        "fields": {
+            "name": "Long Sword",
+            "weapon_type": 4,
+            "attribute": 1,
+            "damage_die": 8,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620649/weapons/21-longsword_skw8mg.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 22,
+        "fields": {
+            "name": "Cutlass",
+            "weapon_type": 4,
+            "attribute": 2,
+            "damage_die": 6,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620649/weapons/22-cutlass_ekqykb.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 23,
+        "fields": {
+            "name": "Rapier",
+            "weapon_type": 4,
+            "attribute": 2,
+            "damage_die": 8,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620649/weapons/23-rapier_obytg0.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 24,
+        "fields": {
+            "name": "Assassin's Blade",
+            "weapon_type": 4,
+            "attribute": 2,
+            "damage_die": 6,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620650/weapons/24-assassins-blade_eq2arg.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 25,
+        "fields": {
+            "name": "Pike",
+            "weapon_type": 4,
+            "attribute": 1,
+            "damage_die": 8,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620650/weapons/25-pike_f3rse3.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 26,
+        "fields": {
+            "name": "Lance",
+            "weapon_type": 4,
+            "attribute": 1,
+            "damage_die": 12,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620650/weapons/26-lance_yq7dxu.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 27,
+        "fields": {
+            "name": "Warhammer",
+            "weapon_type": 4,
+            "attribute": 1,
+            "damage_die": 8,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620663/weapons/27-warhammer_ffassv.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 28,
+        "fields": {
+            "name": "Longbow",
+            "weapon_type": 5,
+            "attribute": 2,
+            "damage_die": 6,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620650/weapons/28-longbow_zs3mtf.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 29,
+        "fields": {
+            "name": "Crossbow",
+            "weapon_type": 5,
+            "attribute": 2,
+            "damage_die": 8,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620650/weapons/29-crossbow_cmjwbg.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 30,
+        "fields": {
+            "name": "Hand Crossbow",
+            "weapon_type": 5,
+            "attribute": 2,
+            "damage_die": 8,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620654/weapons/30-handcrossbow_fkulc9.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 31,
+        "fields": {
+            "name": "Revolver",
+            "weapon_type": 5,
+            "attribute": 2,
+            "damage_die": 6,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620654/weapons/31-revolver_cxwyb2.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 32,
+        "fields": {
+            "name": "Bolt-Action Rifle",
+            "weapon_type": 5,
+            "attribute": 2,
+            "damage_die": 10,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620654/weapons/32-bolt-action-rifle_vcfsaj.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 33,
+        "fields": {
+            "name": "Carbine",
+            "weapon_type": 5,
+            "attribute": 2,
+            "damage_die": 8,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620654/weapons/33-carbine_ajkhyy.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 34,
+        "fields": {
+            "name": "Yak Rifle",
+            "weapon_type": 5,
+            "attribute": 2,
+            "damage_die": 20,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620654/weapons/34-yak-rifle_txo7qx.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 35,
+        "fields": {
+            "name": "Double-barreled Shotgun",
+            "weapon_type": 5,
+            "attribute": 2,
+            "damage_die": 8,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620654/weapons/35-double-barrel_wsyhry.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 36,
+        "fields": {
+            "name": "Sawed-off Shotgun",
+            "weapon_type": 5,
+            "attribute": 2,
+            "damage_die": 8,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620654/weapons/36-sawed-off_lgt3md.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 37,
+        "fields": {
+            "name": "Arenite Curved Sword",
+            "weapon_type": 6,
+            "attribute": 2,
+            "damage_die": 8,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620654/weapons/37-arenite-sword_u08puc.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 38,
+        "fields": {
+            "name": "Arenite Curved Greatsword",
+            "weapon_type": 6,
+            "attribute": 1,
+            "damage_die": 10,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620663/weapons/38-arenite-greatsword_zwjnd2.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 39,
+        "fields": {
+            "name": "Arenite Skirmish Bow",
+            "weapon_type": 6,
+            "attribute": 2,
+            "damage_die": 10,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620654/weapons/39-skirmish-bow_kodr1j.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 40,
+        "fields": {
+            "name": "Sequoia-Wood Spear",
+            "weapon_type": 7,
+            "attribute": 2,
+            "damage_die": 10,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620654/weapons/40-sequoia-spear_qu2waw.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapon",
+        "pk": 41,
+        "fields": {
+            "name": "Sequoia-Wood Greatbow",
+            "weapon_type": 7,
+            "attribute": 2,
+            "damage_die": 20,
+            "number_of_damage_die": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656620654/weapons/41-sequoia-greatbow_hybgv0.jpg"
+        }
+    }
+]

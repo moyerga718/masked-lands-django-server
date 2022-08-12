@@ -1,0 +1,562 @@
+[
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 1,
+        "fields": {
+            "god": 1,
+            "devotion_level": 1,
+            "name": "Blessing of Dawn",
+            "short_description": "Feel the warmth of Sunface shine upon you, revitalizing you in your moment of greatest darkness. ",
+            "full_description": "Make a Religion vs. 15 (-Devotion level) check. On success, recover 2d6(+Att) Life or Stamina. You give off 30ft of daylight for the next hour. You gain one point of devotion.",
+            "action_type": 1,
+            "will_cost": 3,
+            "attack_range": 0
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 2,
+        "fields": {
+            "god": 1,
+            "devotion_level": 1,
+            "name": "Pyromancy",
+            "short_description": "Create flame at will and control its movements.",
+            "full_description": "Cause flames within 15ft to dim, brighten, change color, move up to 5ft in directions you choose, and form shapes of your choice. You can strike combatants within range with these flames. Make an attunement Spell Attack vs Dex. On hit, the target takes 1d6(+Att) Fire damage.",
+            "action_type": 1,
+            "will_cost": 0,
+            "attack_range": 15
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 3,
+        "fields": {
+            "god": 1,
+            "devotion_level": 1,
+            "name": "Thermomancy",
+            "short_description": "Control the heat of an object you can touch, up to waters boiling temperature or down to its freezing point.",
+            "full_description": "As an action, you can heat up or cool off an object you are touching up to 100 degrees Celsius, or down to 0 degrees Celsius. If used on a unit, they make a Constitution vs Attunement saving throw or take 1d6(+Att) Fire/Frost damage. If Fire damage, the target takes an additional 1d6 Fire damage. If Frost damage, the target is slowed for a turn.",
+            "action_type": 1,
+            "will_cost": 0,
+            "attack_range": 0
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 4,
+        "fields": {
+            "god": 1,
+            "devotion_level": 2,
+            "name": "Firebolt",
+            "short_description": "Fire a bolt of flame at a single foe.",
+            "full_description": "Target takes 1d12(+Att) Fire Damage and takes ongoing 1d6 fire damage.",
+            "action_type": 1,
+            "will_cost": 2,
+            "attack_range": 40
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 5,
+        "fields": {
+            "god": 1,
+            "devotion_level": 2,
+            "name": "Personal Sun",
+            "short_description": "Summon a small orb of light that hovers above your head.",
+            "full_description": " A floating ball of light appears above your head, giving off 60ft of daylight. It can follow you around, or you can place it at the location you are standing as a bonus action. While out of combat, you and any allies within 10ft of the orb recover 1d6(+Con) Life and Stamina every 20 minutes.",
+            "action_type": 1,
+            "will_cost": 2,
+            "attack_range": 0
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 6,
+        "fields": {
+            "god": 1,
+            "devotion_level": 2,
+            "name": "Photosynthesis",
+            "short_description": "While in direct sunlight, you slowly recover your life essence.",
+            "full_description": "After 20 mins spent in direct sunlight, you recover up to half of your maximum life. While in combat, at the beginning of a turn spent in direct sunlight, recover 1(+Con) life.",
+            "action_type": 2,
+            "will_cost": 0,
+            "attack_range": 0
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 7,
+        "fields": {
+            "god": 1,
+            "devotion_level": 2,
+            "name": "Flame Whirl",
+            "short_description": "Launch a whirling string of flame at a group of foes.",
+            "full_description": "Targets takes 2d6(+Att) Fire Damage and takes ongoing 1d6 fire damage.",
+            "action_type": 1,
+            "will_cost": 4,
+            "attack_range": 25
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 8,
+        "fields": {
+            "god": 2,
+            "devotion_level": 1,
+            "name": "Blessing of the Lake",
+            "short_description": "The soft sinking of the Moon Lake calms the mind and girds against mental intrusion.",
+            "full_description": "Make a Religion check vs. 15(-DevotionLevel). On success, recover 2d6(+Att) Will. You are advantaged on saves against mental effects for the next hour (frenzy, fear, charm, etc.). You gain one point of devotion.",
+            "action_type": 1,
+            "will_cost": 3,
+            "attack_range": 0
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 9,
+        "fields": {
+            "god": 2,
+            "devotion_level": 1,
+            "name": "Phase Shift",
+            "short_description": "Step through a slip between the weave of reality and reappear instantly in a nearby location.",
+            "full_description": "Teleport 5ft in any direction instantaneously. Can only be used once per turn (once every 10 seconds outside of combat). You must be able to perceive your destination with three or more senses in order to Phase Shift into it. Senses include sight, sound, taste, touch, scent, dreamsense, etc. This shift is considered a true teleport, and so is unaffected by movement/speed restrictions.",
+            "action_type": 3,
+            "will_cost": 0,
+            "attack_range": 0
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 10,
+        "fields": {
+            "god": 2,
+            "devotion_level": 1,
+            "name": "Telekinesis",
+            "short_description": "Move a distant object by shifting it through space with celestial magic.",
+            "full_description": "Move a tiny-sized object within 30ft using your mind up to 20ft. If you would strike a combatant with an object you are moving, make an Attunement vs AC spell attack. On hit, the target takes an amount of Force damage depending on the size and type of object used. If used to wield a weapon, apply spell attack proficiency instead of weapon proficiency, and use Attunement as the attack and damage stat.",
+            "action_type": 1,
+            "will_cost": 0,
+            "attack_range": 30
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 11,
+        "fields": {
+            "god": 2,
+            "devotion_level": 2,
+            "name": "Moonbeam",
+            "short_description": "Fire a ray of celestial energy at a single foe.",
+            "full_description": "Target takes 2d8(+Att) Cosmic Damage.",
+            "action_type": 1,
+            "will_cost": 2,
+            "attack_range": 45
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 12,
+        "fields": {
+            "god": 2,
+            "devotion_level": 2,
+            "name": "Enshaden",
+            "short_description": "Wrap a nearby location in dampening shadows. Muffling sounds within and creating a gyre of impenetrable darkness.",
+            "full_description": "A 10ft radius within 100ft becomes covered with shadows. Stealth checks are advantaged while in this space, passive detection automatically fails against anyone within, and any perception checks to see or hear anything within are disadvantaged. For those caught within the space, this is considered true darkness, and all visual perception checks are disadvantaged and passive detection of anything fails. Lasts for two minutes (three rounds).",
+            "action_type": 1,
+            "will_cost": 1,
+            "attack_range": 100
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 13,
+        "fields": {
+            "god": 2,
+            "devotion_level": 2,
+            "name": "Darkvision",
+            "short_description": "Moonface has granted you the ability to see in darkness as if it were day.",
+            "full_description": "You gain 60ft of dark vision.",
+            "action_type": 2,
+            "will_cost": 0,
+            "attack_range": 60
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 14,
+        "fields": {
+            "god": 2,
+            "devotion_level": 2,
+            "name": "Gravity Sink",
+            "short_description": "Open up a gravitational disturbance beside a group of adversaries, tugging them off-center and dealing heavy force damage to them.",
+            "full_description": "Target takes 2d6(+Att) Force Damage and you can choose to either pull them closer to you or shove them away 10ft.",
+            "action_type": 1,
+            "will_cost": 3,
+            "attack_range": 50
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 15,
+        "fields": {
+            "god": 3,
+            "devotion_level": 1,
+            "name": "Escritorio's Blessing",
+            "short_description": "Escritorio intervenes in a dire situation, using the power granted by his place on the Shifting Throne to rewrite reality",
+            "full_description": "Make a Religion vs. 15(-DevotionLevel) skill check. On success, you succeed a failed saving throw. You then gain advantage on saving throws of this type for the next 5 minutes (3 rounds). You gain one point of devotion. Can only be used once between long rests.",
+            "action_type": 1,
+            "will_cost": 3,
+            "attack_range": 0
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 16,
+        "fields": {
+            "god": 3,
+            "devotion_level": 1,
+            "name": "Cell Shaping",
+            "short_description": "Shape with the individual cells of a non-sentient living object. You can cause it to flourish or wither. Allows the spontaneous growth and decay of plantlife, fungi, bacterium, etc.",
+            "full_description": "Cause a living non sentient object you are touching to grow or decay. Among other things, you can cause a plant to bear fruit out of season, grow a tree to extraordinary heights, or wither away.  You must remain in contact with the object for up to 6 hours for the effect to take place completely. Time required depends on the scale of the Shaping.",
+            "action_type": 1,
+            "will_cost": 1,
+            "attack_range": 0
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 17,
+        "fields": {
+            "god": 3,
+            "devotion_level": 1,
+            "name": "Windshaping",
+            "short_description": "You can shape the wind to your tastes.",
+            "full_description": "Shape the wind. Cause the wind to gather in a point within 5ft, or pull gusts in any direction of your choice within 50ft. Any number of targets along a contiguous line of the wind’s movement units make Dex vs Attunement saves or take 1d4(+Att) force damage and are knocked prone (save Con vs Att). If you already have the wind gathered at a point near you, you can send a larger gust at a target within 25ft. Make an Att vs. Dex spell attack on the target. On hit, the gust deals 1d8(+Att) force damage and knocks the target back 5ft (save Con vs Att).",
+            "action_type": 1,
+            "will_cost": 0,
+            "attack_range": 50
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 18,
+        "fields": {
+            "god": 3,
+            "devotion_level": 2,
+            "name": "Upgraded Cell Shaping",
+            "short_description": "Shape with the individual cells of a non-sentient living object, you can cause it to flourish or wither. Allows the spontaneous growth and decay of plantlife, fungi, bacterium, etc.",
+            "full_description": "Cause a living non sentient object within 30ft to grow or decay. Among other things, you can cause a plant to bear fruit out of season, grow to extraordinary heights, or wither away. You must remain near the object for up to 8 hours for the effect to take place completely. Time required depends on the scale of the Shaping",
+            "action_type": 1,
+            "will_cost": 1,
+            "attack_range": 30
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 19,
+        "fields": {
+            "god": 3,
+            "devotion_level": 2,
+            "name": "Gust of Wind",
+            "short_description": "Gather a squall in your hands and send it hurtling at a nearby foe.",
+            "full_description": "Targets takes 1d12(+Att) Force Damage and is knocked prone (Dex save vs Att).",
+            "action_type": 1,
+            "will_cost": 3,
+            "attack_range": 60
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 20,
+        "fields": {
+            "god": 3,
+            "devotion_level": 2,
+            "name": "Lightshaped Orb",
+            "short_description": "Gather a small orb of light that hovers above your head.",
+            "full_description": "A floating ball of light appears above your head, giving off 60ft of daylight. Outside of combat, you and all allies within 10ft of the orb gain 1d4(+Att) Stamina every 20 mins. ",
+            "action_type": 1,
+            "will_cost": 2,
+            "attack_range": 0
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 21,
+        "fields": {
+            "god": 3,
+            "devotion_level": 2,
+            "name": "Thunderbolt",
+            "short_description": "Blast a distant target with a jolt of electricity",
+            "full_description": "Target takes 2d6 (+Att) Bolt Damage and is paralyzed (Save Con vs 15). ",
+            "action_type": 1,
+            "will_cost": 2,
+            "attack_range": 40
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 22,
+        "fields": {
+            "god": 4,
+            "devotion_level": 1,
+            "name": "Blessing of the Architect",
+            "short_description": "You feel the earth around you settle into place as you gird yourself with Goge’s strength.",
+            "full_description": "Make a Religion check vs. 15(-DevotionLevel). On success, you gain +2 Strength and +2 AC for the next hour. You gain one point of devotion.",
+            "action_type": 1,
+            "will_cost": 3,
+            "attack_range": 0
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 23,
+        "fields": {
+            "god": 4,
+            "devotion_level": 1,
+            "name": "Sculptor",
+            "short_description": "Channel Goge to shape the earth in any shape you please.",
+            "full_description": "Shape up to 15ft (3 squares) of contiguous stone within 40ft. Shape the stone into a wall, cause it to cave into a pit, etc. Combatants within the affected area make a Dex vs. 12 spell save or take 1d4(+Att) force damage and are knocked prone. On success, target shifts out of the affected area.",
+            "action_type": 1,
+            "will_cost": 2,
+            "attack_range": 40
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 24,
+        "fields": {
+            "god": 4,
+            "devotion_level": 2,
+            "name": "Quake",
+            "short_description": "Cause a small tremor beneath the feet of your foes to knock them to the ground.",
+            "full_description": "Make a 10ft burst with a corner in range. This area is now difficult terrain. All combatants in range make a Dex vs Att saving throw. On fail, targets take 1d6(+Att) force damage and are knocked prone. On success, targets take half force damage.",
+            "action_type": 1,
+            "will_cost": 3,
+            "attack_range": 45
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 25,
+        "fields": {
+            "god": 4,
+            "devotion_level": 2,
+            "name": "Pillar of Earth",
+            "short_description": "Pull a thick pillar of earth out of the ground to send a combatant skyward.",
+            "full_description": "A 10ft radius within 50ft is risen 30ft into the air. Ranged attacks made from the pillar are advantaged at those below, and ranged attacks made at targets on top of the pillar are disadvantaged. Melee attacks cannot be made from nor at the top of the pillar.",
+            "action_type": 1,
+            "will_cost": 2,
+            "attack_range": 50
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 26,
+        "fields": {
+            "god": 4,
+            "devotion_level": 2,
+            "name": "Hammer of Stone",
+            "short_description": "Reach into the earth and tear out a hammer formed from the stones of Aldmerra.",
+            "full_description": "Conjure a hammer from stone or earth you can reach. Consider this a magic mace for its properties and proficiency purposes. As a weapon attack action, you can swing the hammer at a target, making an Attunement vs. AC melee weapon attack on the target, dealing 1d10(+Att) force damage, and knocking the target prone (save Dex vs Att).",
+            "action_type": 1,
+            "will_cost": 2,
+            "attack_range": 0
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 27,
+        "fields": {
+            "god": 4,
+            "devotion_level": 2,
+            "name": "Boulder Throw",
+            "short_description": "Break a chunk of earth away and hurl it at a nearby target.",
+            "full_description": " Target takes 1d12(+Att) Force damage and is knocked prone.",
+            "action_type": 1,
+            "will_cost": 1,
+            "attack_range": 25
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 28,
+        "fields": {
+            "god": 5,
+            "devotion_level": 1,
+            "name": "Blessing of the Light",
+            "short_description": "The pure radiant light of Faelina’s presence appears to you in your time of need.",
+            "full_description": "Make a Religion check vs. 15(-DevotionLevel). On success, you or an ally within 30ft recover 2d10(+Att) life. You gain one point of devotion.",
+            "action_type": 1,
+            "will_cost": 3,
+            "attack_range": 0
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 29,
+        "fields": {
+            "god": 5,
+            "devotion_level": 1,
+            "name": "Healing Touch",
+            "short_description": "Channel the radiance of Faelina through your hands to heal.",
+            "full_description": "Lay hands on a willing living entity. Heal the unit for 1d6(+Att) Life, Will, or Stamina.",
+            "action_type": 1,
+            "will_cost": 1,
+            "attack_range": 0
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 30,
+        "fields": {
+            "god": 5,
+            "devotion_level": 2,
+            "name": "Lightshard",
+            "short_description": "Fire a shard of crystalized light at a single foe.",
+            "full_description": "Target takes 3d4(+Att) Radiant Damage.",
+            "action_type": 1,
+            "will_cost": 2,
+            "attack_range": 45
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 31,
+        "fields": {
+            "god": 5,
+            "devotion_level": 2,
+            "name": "Embrighten",
+            "short_description": "Reveal a location in vindicating light. All units in stealth are forced into the bright.",
+            "full_description": "A 30ft radius within 100ft becomes Embrightened. Stealth checks in the area are disadvantaged. This area gives off 100ft of daylight. Furthermore, any units currently undetected in the radius must make a disadvantaged Dexterity save vs Attunement or be revealed.",
+            "action_type": 1,
+            "will_cost": 2,
+            "attack_range": 100
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 32,
+        "fields": {
+            "god": 5,
+            "devotion_level": 2,
+            "name": "True Word: Calm",
+            "short_description": "Faelina reveals to you the words to calm an Earthborn heart. Speak them to restore order to a tempestuous heart.",
+            "full_description": "A hostile humanoid in range, or a humanoid that is Frenzied must make an Intelligence vs Attunement saving throw. On fail, the unit becomes pacified temporarily, and its frenzy is cured.",
+            "action_type": 1,
+            "will_cost": 3,
+            "attack_range": 50
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 33,
+        "fields": {
+            "god": 5,
+            "devotion_level": 2,
+            "name": "True Word: Light",
+            "short_description": "Speak into existence a cascade of radiance. Living units in the radius are healed, while undead and demonic units are damaged.",
+            "full_description": "Spark a 10ft burst within 60ft. All living units within AoE are healed 2d6(+Att) life and 1d4(+Att) stamina. Non-living and Demonic units make a Con vs Att saving throw. On fail, these units take 2d12(+Att) Radiant damage.",
+            "action_type": 1,
+            "will_cost": 5,
+            "attack_range": 60
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 34,
+        "fields": {
+            "god": 6,
+            "devotion_level": 1,
+            "name": "Blessing of the Dice",
+            "short_description": "Roll the Dice and see if the house pays out.",
+            "full_description": "Make a Luck check vs. 10. On success, recover 1d20 life, will, and stamina. You gain one point of devotion. Can only be used once between long rests.",
+            "action_type": 1,
+            "will_cost": 2,
+            "attack_range": 0
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 35,
+        "fields": {
+            "god": 6,
+            "devotion_level": 1,
+            "name": "Get Creative!",
+            "short_description": "Turn a weapon you have equipped into a random alternative. With Garthank’s blessing, this can turn the tides of combat.",
+            "full_description": "Roll Garthank’s dice (D6,D8, D10). Your equipped weapon is transmogrified into a random alternative based on the quality of the roll",
+            "action_type": 1,
+            "will_cost": 5,
+            "attack_range": 0
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 36,
+        "fields": {
+            "god": 6,
+            "devotion_level": 1,
+            "name": "Cat's Lives",
+            "short_description": "A cat has nine lives, why should you only have one?",
+            "full_description": "If you would take damage from a harmful effect, you can expend one of your Cat’s Lives to reduce this damage to 0. You have Cat’s Lives equal to your Devotion Level. You recover half (rounded up) of your total Cat’s Lives whenever you take a long rest. ",
+            "action_type": 2,
+            "will_cost": 0,
+            "attack_range": 0
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 37,
+        "fields": {
+            "god": 6,
+            "devotion_level": 2,
+            "name": "Lucky Break",
+            "short_description": "Catch a break on an attack roll by making a miss hit, or by making an opponent’s hit miss.",
+            "full_description": "An attack roll that is targeting you, or you make an attack against a target that does not hit. Either reduce or increase the value of that roll by 1d10.",
+            "action_type": 4,
+            "will_cost": 1,
+            "attack_range": 0
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 38,
+        "fields": {
+            "god": 6,
+            "devotion_level": 2,
+            "name": "Tip the Scales",
+            "short_description": "Nudge a damage die in your favor by increasing damage you or an ally deals, or decreasing the damage of an opponent.",
+            "full_description": "After an effect you or an ally within 100ft controls deals damage to an opponent, or you or an ally within 100ft would take damage from an opponent’s effect. Roll the damage dice twice and take either the higher or lower value.",
+            "action_type": 3,
+            "will_cost": 1,
+            "attack_range": 100
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 39,
+        "fields": {
+            "god": 6,
+            "devotion_level": 2,
+            "name": "Aural Apparition",
+            "short_description": "Conjure a phantasmal sound to trick your foes. Auditory illusion only.",
+            "full_description": "Roll a Performance check vs. 16(-Devotion Level). On success,  create a convincing sound of your choice at the target. Foes must save Attunement vs. Charisma or be fooled by your sound.",
+            "action_type": 1,
+            "will_cost": 2,
+            "attack_range": 50
+        }
+    },
+    {
+        "model": "maskedlandsapi.spell",
+        "pk": 40,
+        "fields": {
+            "god": 6,
+            "devotion_level": 2,
+            "name": "Play a Trick!",
+            "short_description": "Spice up life by playing a trick or two! Permanently transform an object into a random alternative.",
+            "full_description": "Roll Garthank’s dice (D6,D8, D10). The target is transmogrified into a random alternative based on the quality of the roll.",
+            "action_type": 1,
+            "will_cost": 5,
+            "attack_range": 50
+        }
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "model": "maskedlandsapi.weapontype",
+        "pk": 1,
+        "fields": {
+            "name": "Unarmed Weapons"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapontype",
+        "pk": 2,
+        "fields": {
+            "name": "Simple Melee Weapons"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapontype",
+        "pk": 3,
+        "fields": {
+            "name": "Simple Ranged Weapons"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapontype",
+        "pk": 4,
+        "fields": {
+            "name": "Martial Melee Weapons"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapontype",
+        "pk": 5,
+        "fields": {
+            "name": "Advanced Ranged Weapons"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapontype",
+        "pk": 6,
+        "fields": {
+            "name": "Arenite Weapons"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapontype",
+        "pk": 7,
+        "fields": {
+            "name": "Jelid Weapons"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapontype",
+        "pk": 8,
+        "fields": {
+            "name": "Artificed Weapons"
+        }
+    },
+    {
+        "model": "maskedlandsapi.weapontype",
+        "pk": 9,
+        "fields": {
+            "name": "Unarmed"
+        }
+    }
+]

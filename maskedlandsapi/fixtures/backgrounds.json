@@ -1,0 +1,302 @@
+[
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 1,
+        "fields": {
+            "species": 1,
+            "name": "Nomad",
+            "description": "Arenite nomads are usually born in Arkose as a member of a family clan. They are shepherds and hunters who band together and roam the grasslands of Arkose’s interior. Nomads as adventurers are hardy and tough, capable of weathering intense conditions.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656544312/Species/Arenite/nomad_utynyr.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 2,
+        "fields": {
+            "species": 1,
+            "name": "Mercenary",
+            "description": "Arenite mercenaries are usually born in Arkose as a member of a family clan. These are the nomads who for some reason or another chose to leave their homeland to become a wandering adventurer. Mercenaries as adventurers are masters of combat.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656544312/Species/Arenite/arenite-merc_litlcz.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 3,
+        "fields": {
+            "species": 1,
+            "name": "Immigrant",
+            "description": "Arenite immigrants are born either to immigrant parents or in Arkose as a member of a family clan early in life. These members of a modern mass migration are most often found in Severra, Minora, or on the Fire Islands. Immigrants as adventurers are attuned to themselves and their surroundings, and their experience with language learning makes them skilled diplomats.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656544312/Species/Arenite/arenite-immigrant-2_ykvc5x.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 4,
+        "fields": {
+            "species": 1,
+            "name": "Rancher",
+            "description": "Arenite ranchers are born either to immigrant parents or in Arkose as a member of a family clan early in life. These early members of a modern mass migration are most often found in the Wastes, Steya Darcca, and especially in the city of Granitoge, where they work alongside Humans and Jelids as settlers. Ranchers as adventurers are confident in outdoor situations and are quite skilled at working with animals.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656544312/Species/Arenite/arenite-rancher_t5j4x9.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 5,
+        "fields": {
+            "species": 1,
+            "name": "Islander",
+            "description": "Arenite islanders are born on the Fire Islands. Islanders are often the children of Arcanists, and as such are predisposed to its use. Islanders as adventurers are skilled with arcana on or off the high seas.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656544312/Species/Arenite/arenite-islander_w8ci9h.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 6,
+        "fields": {
+            "species": 2,
+            "name": "Citizen",
+            "description": "Jelid citizens usually hail from the Masked Lands, particularly from Severra. Many Jelid citizens aspire to be adventurers. Citizens as adventurers are sharp and quick on their feet.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656544402/Species/Jelid/jelid-citizen_hcr7uk.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 7,
+        "fields": {
+            "species": 2,
+            "name": "Wanderer",
+            "description": "Jelid wanderers can come from any number of places, and have been to them all anyways. Due to their natural wanderlust, many Jelids roam from place to place. As adventurers, wanderers are skilled guides and travelers.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656544402/Species/Jelid/jelid-wanderer-1_mx6hy0.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 8,
+        "fields": {
+            "species": 2,
+            "name": "Tribal",
+            "description": "Tribal Jelids come from the jungle islands in the Golden Sea, northern Oeleza, the Fire Islands, or Northern Severra. They shirk structured society in favor of the wild life of their ancestors. As adventurers, tribal adventurers are masters of ranged combat.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656547024/Species/Jelid/jelid-tribal_bize17.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 9,
+        "fields": {
+            "species": 2,
+            "name": "Storyteller",
+            "description": "Jelid storytellers are often born in the Masked Lands. These wandering bards follow in the footsteps of the countless great storytellers in Jelid history like the famed Enzian Maas, author of the Tale of Rahul. As adventurers, storytellers are charming and adept in social situations.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656544402/Species/Jelid/jelid-storyteller-1_f3afow.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 10,
+        "fields": {
+            "species": 2,
+            "name": "Islander",
+            "description": "Jelid islanders are born on the Fire Islands. Islanders are often the children of Arcanists, and as such are predisposed to its use. Islanders as adventurers are skilled with arcana on or off the high seas.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656547793/Species/Jelid/jelid-islander_owdpor.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 11,
+        "fields": {
+            "species": 3,
+            "name": "Veteran",
+            "description": "A Gogic veteran was most likely born in Goger, Minora, Granitoge, or in Leona. A Goge with military background most likely did his duty serving in the imperial military as a drafted soldier during one of the many wars in the Viran States between the years 30 and 45, or the veteran served in the domestic military and peacekeeping force of Goger or Minora.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656544359/Species/Goge/goge-veteran_gjvtex.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 12,
+        "fields": {
+            "species": 3,
+            "name": "Citizen",
+            "description": "Gogic citizens were often born in Goger, Minora, Granitoge, or Leona, but may have traveled far from their homeland. Here they act as natural leaders, frequently found in positions such as mayor of a small town, or in high-ranking government positions. Gogic citizens as adventurers make decisive leaders and charming facemen.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656547964/Species/Goge/goge-citizen_q8ahqv.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 13,
+        "fields": {
+            "species": 3,
+            "name": "Thug",
+            "description": "Gogic thugs often call home one of the many large northern cities of Aldmerra, such as Minora, Goger, or Fiora. A thirst for profit, a desire to get back at the man, or even just plain necessity can cause a Goge to go down the lawless path. As adventurers, Gogic thugs make for imposing figures on or off the battlefield.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656548030/Species/Goge/goge-thug_wlpy6r.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 14,
+        "fields": {
+            "species": 3,
+            "name": "Craftsman",
+            "description": "Gogic Craftsmen can be found in almost any major city of Aldmerra, but many have spent some time at the Lumus Academy mastering their trade. These master artificiers and smiths create technological wonders, sturdy metalworks, and even alchemical concoctions. As adventurers, Gogic craftsmen always have a trick up their sleeve.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656544359/Species/Goge/goge-craftsman_fh2ery.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 15,
+        "fields": {
+            "species": 3,
+            "name": "Islander",
+            "description": "Gogic islanders are born on the Fire Islands. Islanders are often the children of Arcanists, and as such are predisposed to its use. Islanders as adventurers are skilled with arcana on or off the high seas.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656548104/Species/Goge/goge-islander_gfqueh.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 16,
+        "fields": {
+            "species": 4,
+            "name": "Academic",
+            "description": "El-Dun academics are usually born on Elandun and spent the majority of their youth there studying in the Lumus Academy. Now graduated, or perhaps on a research assignment, the academic travels abroad. As adventurers, academics are fonts of helpful knowledge and make skilled tinkers or channelers.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656544339/Species/El%20Dun/eldun-academic_atgwbv.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 17,
+        "fields": {
+            "species": 4,
+            "name": "Sailor",
+            "description": "El-Dun sailors are usually from one of the many port cities of Aldmerra. As the sailor grew up, they became more and more experienced with maritime affairs, and have had experience at sea. El-Dun sailors as adventurers are clear-headed and tough.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656544338/Species/El%20Dun/el_dun_sailor_y0paj1.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 18,
+        "fields": {
+            "species": 4,
+            "name": "Criminal",
+            "description": "El-Dun criminals are usually born in the Free City of Goger, Minora, or any other major city of Aldmerra as a minority. A thirst for profit, a desire to get back at the man, or even just plain necessity can cause a El-Dun to go down the lawless path. As adventurers, criminals are handy at doing any wet work that adventuring sometimes calls for.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656544338/Species/El%20Dun/el_dun_criminal_loklou.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 19,
+        "fields": {
+            "species": 4,
+            "name": "Citizen",
+            "description": " El-Dun citizens are usually born either on Elandun or in the Free City of Goger, Minora, or as a minority in any of the major cities of Aldmerra. Many El-Dun citizens aspire to become adventurers. As adventures, El-Dun citizens are both street smart and book smart.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656544339/Species/El%20Dun/el_dun_citizen-1_u4tubv.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 20,
+        "fields": {
+            "species": 4,
+            "name": "Islander",
+            "description": "El-Dun islanders are born on the Fire Islands. Islanders are often the children of Arcanists, and as such are predisposed to its use. Islanders as adventurers are skilled with arcana on or off the high seas.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656544338/Species/El%20Dun/el_dun_islander_chnlrp.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 21,
+        "fields": {
+            "species": 5,
+            "name": "Citizen",
+            "description": "Vir citizens are usually born in the Viran States or in Minora. Many Viran citizens aspire to become channelers. As adventures, Viran citizens are clever and knowledgeable about a range of topics.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656530580/Species/Vir/image2_ijtk1w.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 22,
+        "fields": {
+            "species": 5,
+            "name": "Evangelist",
+            "description": "Vir evangelists are usually born in the Viran States or Minora, or was the child of refugees. Devotion to a god has led this Vir to preach and attempt to encourage others to become similarly devoted to that god. As adventurers, Evangelists are natural channelers.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656544435/Species/Vir/vir-evangelist_lrc9fn.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 23,
+        "fields": {
+            "species": 5,
+            "name": "Refugee",
+            "description": "Vir refugees were displaced at some point in their life by the wars throughout the Viran States, or they are descended from the refugees of the Severran-Imperial War during the Dusk of the Fourth Age. These Vir are often minorities in their communities, and they are in the habit of working hard to blend in. Vir refugees as adventurers are masters of going unnoticed.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656530580/Species/Vir/image1_fsojhc.png"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 24,
+        "fields": {
+            "species": 5,
+            "name": "Criminal",
+            "description": "Vir criminals are born in the Viran States, in Minora, or as a child of refugees. A thirst for profit, a desire to get back at the man, or even just plain necessity can cause a Vir to go down the lawless path. As adventurers, criminals are handy at doing any wet work that adventuring sometimes calls for.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656544435/Species/Vir/vir_criminal_mhk65p.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 25,
+        "fields": {
+            "species": 5,
+            "name": "Islander",
+            "description": "Vir islanders are born on the Fire Islands. Islanders are often the children of Arcanists, and as such are predisposed to its use. Islanders as adventurers are skilled with arcana on or off the high seas.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656544435/Species/Vir/vir-islander_ehwgom.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 26,
+        "fields": {
+            "species": 6,
+            "name": "Merchant",
+            "description": "Haima merchants are most often born in a port city of Leona or in Minora. However, in life, merchants often take to the high seas in trading vessels. Merchants as adventurers are quick-witted and discerning individuals.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656544382/Species/Haima/haima-merchant-1_zfdnt4.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 27,
+        "fields": {
+            "species": 6,
+            "name": "Refugee",
+            "description": "Haima refugees were displaced at some point in their life by the wars in southern Leona, or they are descended from the refugees of the Severran-Imperial War during the Dusk of the Fourth Age. These Haima are often minorities in their communities, and they are in the habit of working hard to blend in. Haima refugees as adventurers are always finding ways to wriggle their way out of trouble.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656548945/Species/Haima/haima-refugee-1_poyqg0.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 28,
+        "fields": {
+            "species": 6,
+            "name": "Veteran",
+            "description": "Haima veterans served in the Imperial military, most likely doing a campaign in the Viran States in one of the many wars fought between year 30 and 45. As adventurers, these portly powerhouses make for burly fighters and are natural leaders.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656544382/Species/Haima/haima-veteran_bkxmsk.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 29,
+        "fields": {
+            "species": 6,
+            "name": "Spy",
+            "description": "Haima spies are usually born in Leona or Minora. Using his charm, this mound of subterfuge infiltrated targets and gathered information, often for some sort of criminal organization. As adventurers, Haima Spies are masters of disguise.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656544382/Species/Haima/haima_-_spy_csyyzd.jpg"
+        }
+    },
+    {
+        "model": "maskedlandsapi.background",
+        "pk": 30,
+        "fields": {
+            "species": 6,
+            "name": "Islander",
+            "description": "Haima islanders are born on the Fire Islands. Islanders are often the children of Arcanists, and as such are predisposed to its use. Islanders as adventurers are skilled with arcana on or off the high seas.",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656549003/Species/Haima/haima-islander_jscuwe.jpg"
+        }
+    }
+]

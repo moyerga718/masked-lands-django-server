@@ -1,0 +1,409 @@
+[
+    {
+        "model": "maskedlandsapi.subclass",
+        "pk": 1,
+        "fields": {
+            "name": "Mercenary",
+            "combat_class": 1,
+            "hit_die": 10,
+            "life": 10,
+            "will": 2,
+            "will_per_level": 1,
+            "stamina": 5,
+            "stamina_per_level": 3,
+            "devotion_points": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656530637/Class/Mercenary/jelid-merc_akl4s4.png",
+            "description": "All brawn baybee.",
+            "weapon_proficiencies": [
+                2,
+                3,
+                4,
+                5,
+                9
+            ],
+            "armor_proficiencies": [
+                1,
+                2,
+                3,
+                4
+            ]
+        }
+    },
+    {
+        "model": "maskedlandsapi.subclass",
+        "pk": 2,
+        "fields": {
+            "combat_class": 1,
+            "name": "Paladin",
+            "hit_die": 8,
+            "life": 8,
+            "will": 4,
+            "will_per_level": 2,
+            "stamina": 3,
+            "stamina_per_level": 1,
+            "devotion_points": 3,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656548867/Class/Mercenary/arenite-sun-merc-paladin_a3feon.png",
+            "description": "Supplement your muscle with some magic.",
+            "weapon_proficiencies": [
+                2,
+                3,
+                4,
+                9
+            ],
+            "armor_proficiencies": [
+                1,
+                2,
+                3,
+                4
+            ]
+        }
+    },
+    {
+        "model": "maskedlandsapi.subclass",
+        "pk": 3,
+        "fields": {
+            "combat_class": 2,
+            "name": "Outlaw",
+            "hit_die": 6,
+            "life": 6,
+            "will": 3,
+            "will_per_level": 1,
+            "stamina": 4,
+            "stamina_per_level": 2,
+            "devotion_points": 2,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656539298/Class/Outlaw/outlaw-2_cidfly.jpg",
+            "description": "Hawk eyes and a trigger finger. This town ain't big enough etc...",
+            "weapon_proficiencies": [
+                2,
+                3,
+                5,
+                9
+            ],
+            "armor_proficiencies": [
+                1,
+                2,
+                4
+            ]
+        }
+    },
+    {
+        "model": "maskedlandsapi.subclass",
+        "pk": 4,
+        "fields": {
+            "combat_class": 2,
+            "name": "Hunter",
+            "hit_die": 8,
+            "life": 8,
+            "will": 2,
+            "will_per_level": 1,
+            "stamina": 4,
+            "stamina_per_level": 2,
+            "devotion_points": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656530638/Class/Outlaw/hunter-1_ykt545.jpg",
+            "description": "A hunter must hunt. Go kill yourself a few beasts.",
+            "weapon_proficiencies": [
+                2,
+                3,
+                4,
+                5,
+                9
+            ],
+            "armor_proficiencies": [
+                1,
+                2,
+                4
+            ]
+        }
+    },
+    {
+        "model": "maskedlandsapi.subclass",
+        "pk": 5,
+        "fields": {
+            "combat_class": 2,
+            "name": "Ranger",
+            "hit_die": 4,
+            "life": 4,
+            "will": 4,
+            "will_per_level": 2,
+            "stamina": 4,
+            "stamina_per_level": 2,
+            "devotion_points": 3,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656548296/Class/Outlaw/jelid-ranger_hnmc0i.png",
+            "description": "An outlaw with a pious side. Shoots lead and spells.",
+            "weapon_proficiencies": [
+                2,
+                3,
+                5,
+                9
+            ],
+            "armor_proficiencies": [
+                1,
+                4
+            ]
+        }
+    },
+    {
+        "model": "maskedlandsapi.subclass",
+        "pk": 6,
+        "fields": {
+            "combat_class": 3,
+            "name": "Arcanist",
+            "hit_die": 8,
+            "life": 8,
+            "will": 3,
+            "will_per_level": 1,
+            "stamina": 3,
+            "stamina_per_level": 1,
+            "devotion_points": 2,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656548601/Class/Arcanist/Arcanist_xa7nje.png",
+            "description": "Use that Good Blood for good. Or evil. Whatever, really.",
+            "weapon_proficiencies": [
+                2,
+                3,
+                9
+            ],
+            "armor_proficiencies": [
+                1,
+                4
+            ]
+        }
+    },
+    {
+        "model": "maskedlandsapi.subclass",
+        "pk": 7,
+        "fields": {
+            "combat_class": 3,
+            "name": "Wolf Knight",
+            "hit_die": 10,
+            "life": 10,
+            "will": 2,
+            "will_per_level": 1,
+            "stamina": 4,
+            "stamina_per_level": 2,
+            "devotion_points": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656530636/Class/Arcanist/wolf-knight-2_m0r7fd.jpg",
+            "description": "Arcanists specialized in combat as well as arcana.",
+            "weapon_proficiencies": [
+                2,
+                3,
+                5,
+                9
+            ],
+            "armor_proficiencies": [
+                1,
+                2,
+                4
+            ]
+        }
+    },
+    {
+        "model": "maskedlandsapi.subclass",
+        "pk": 8,
+        "fields": {
+            "combat_class": 3,
+            "name": "Magi",
+            "hit_die": 6,
+            "life": 6,
+            "will": 4,
+            "will_per_level": 2,
+            "stamina": 3,
+            "stamina_per_level": 1,
+            "devotion_points": 3,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656548673/Class/Arcanist/magi_urxmmi.png",
+            "description": "Arcanists specialized in channeling a god.",
+            "weapon_proficiencies": [
+                2,
+                3,
+                9
+            ],
+            "armor_proficiencies": [
+                1,
+                4
+            ]
+        }
+    },
+    {
+        "model": "maskedlandsapi.subclass",
+        "pk": 9,
+        "fields": {
+            "combat_class": 4,
+            "name": "Tinker",
+            "hit_die": 6,
+            "life": 6,
+            "will": 4,
+            "will_per_level": 2,
+            "stamina": 3,
+            "stamina_per_level": 1,
+            "devotion_points": 2,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656530638/Class/Tinker/tinker-2_b3i5gk.jpg",
+            "description": "Gunk guns, buzz bots, ichors, gee-whiz!",
+            "weapon_proficiencies": [
+                2,
+                3,
+                9
+            ],
+            "armor_proficiencies": [
+                1,
+                4
+            ]
+        }
+    },
+    {
+        "model": "maskedlandsapi.subclass",
+        "pk": 10,
+        "fields": {
+            "combat_class": 4,
+            "name": "Mechanist",
+            "hit_die": 8,
+            "life": 8,
+            "will": 2,
+            "will_per_level": 1,
+            "stamina": 4,
+            "stamina_per_level": 2,
+            "devotion_points": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656548775/Class/Tinker/tinker_uudvwh.png",
+            "description": "Nerd with a knack for riflery.",
+            "weapon_proficiencies": [
+                2,
+                3,
+                5,
+                9
+            ],
+            "armor_proficiencies": [
+                1,
+                2,
+                4
+            ]
+        }
+    },
+    {
+        "model": "maskedlandsapi.subclass",
+        "pk": 11,
+        "fields": {
+            "combat_class": 5,
+            "name": "Channeler",
+            "hit_die": 4,
+            "life": 4,
+            "will": 5,
+            "will_per_level": 3,
+            "stamina": 3,
+            "stamina_per_level": 1,
+            "devotion_points": 5,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656530637/Class/Channeler/el-dun-channeler_meh1gu.png",
+            "description": "Who needs push-ups when you have prayer?",
+            "weapon_proficiencies": [
+                9
+            ],
+            "armor_proficiencies": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "maskedlandsapi.subclass",
+        "pk": 12,
+        "fields": {
+            "combat_class": 5,
+            "name": "Monk",
+            "hit_die": 6,
+            "life": 6,
+            "will": 4,
+            "will_per_level": 2,
+            "stamina": 3,
+            "stamina_per_level": 1,
+            "devotion_points": 4,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656530637/Class/Channeler/human-monk_soh7ke.png",
+            "description": "A Channeler who doesn't mind getting their fists bloody.",
+            "weapon_proficiencies": [
+                2,
+                3,
+                9
+            ],
+            "armor_proficiencies": [
+                1,
+                4
+            ]
+        }
+    },
+    {
+        "model": "maskedlandsapi.subclass",
+        "pk": 13,
+        "fields": {
+            "combat_class": 6,
+            "name": "Singer",
+            "hit_die": 8,
+            "life": 8,
+            "will": 3,
+            "will_per_level": 1,
+            "stamina": 4,
+            "stamina_per_level": 2,
+            "devotion_points": 2,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656530638/Class/Singer/goge_singer_qymgux.png",
+            "description": "I had no choice... I was born with the gift of a golden voice.",
+            "weapon_proficiencies": [
+                2,
+                3,
+                9
+            ],
+            "armor_proficiencies": [
+                1,
+                2,
+                4
+            ]
+        }
+    },
+    {
+        "model": "maskedlandsapi.subclass",
+        "pk": 14,
+        "fields": {
+            "combat_class": 6,
+            "name": "Rogue",
+            "hit_die": 6,
+            "life": 6,
+            "will": 2,
+            "will_per_level": 1,
+            "stamina": 5,
+            "stamina_per_level": 3,
+            "devotion_points": 1,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656530638/Class/Singer/arenite-rogue_u9vkob.png",
+            "description": "Sneaky sneaky!",
+            "weapon_proficiencies": [
+                2,
+                3,
+                4,
+                9
+            ],
+            "armor_proficiencies": [
+                1,
+                2,
+                4
+            ]
+        }
+    },
+    {
+        "model": "maskedlandsapi.subclass",
+        "pk": 15,
+        "fields": {
+            "combat_class": 6,
+            "name": "Skald",
+            "hit_die": 4,
+            "life": 4,
+            "will": 4,
+            "will_per_level": 2,
+            "stamina": 4,
+            "stamina_per_level": 2,
+            "devotion_points": 3,
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656548487/Class/Singer/vir-skald_h9zh0y.png",
+            "description": "Channel the gods with your instrument. The devil went down to Arkose...?",
+            "weapon_proficiencies": [
+                2,
+                3,
+                9
+            ],
+            "armor_proficiencies": [
+                1,
+                4
+            ]
+        }
+    }
+]
