@@ -4,8 +4,9 @@
         "pk": 1,
         "fields": {
             "name": "Jermaine Jangle",
-            "user": 1,
-            "xp": 0,
+            "player": 1,
+            "xp": 12562,
+            "bio": "A top tier jangler who knows naught but the art of bonk",
             "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656001534/Character%20Images/hdxoscoynleqbh7q50qg.jpg",
             "species": 3,
             "background": 14,

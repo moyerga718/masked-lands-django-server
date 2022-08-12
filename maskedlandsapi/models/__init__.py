@@ -9,6 +9,7 @@ from .character_devotion import CharacterDevotion
 from .characters import Character
 from .combat_classes import CombatClass
 from .gods import God   
+from .players import Player
 from .species import Species
 from .spells import Spell
 from .subclasses import Subclass

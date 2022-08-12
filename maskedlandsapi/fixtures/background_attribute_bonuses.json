@@ -1,0 +1,650 @@
+[
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 1,
+        "fields": {
+            "background": 1,
+            "attribute": 1,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 2,
+        "fields": {
+            "background": 1,
+            "attribute": 3,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 3,
+        "fields": {
+            "background": 2,
+            "attribute": 1,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 4,
+        "fields": {
+            "background": 2,
+            "attribute": 2,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 5,
+        "fields": {
+            "background": 3,
+            "attribute": 1,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 6,
+        "fields": {
+            "background": 3,
+            "attribute": 5,
+            "bonus": 1
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 7,
+        "fields": {
+            "background": 3,
+            "attribute": 4,
+            "bonus": 1
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 8,
+        "fields": {
+            "background": 4,
+            "attribute": 1,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 9,
+        "fields": {
+            "background": 4,
+            "attribute": 2,
+            "bonus": 1
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 10,
+        "fields": {
+            "background": 4,
+            "attribute": 5,
+            "bonus": 1
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 11,
+        "fields": {
+            "background": 5,
+            "attribute": 1,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 12,
+        "fields": {
+            "background": 5,
+            "attribute": 3,
+            "bonus": 1
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 13,
+        "fields": {
+            "background": 5,
+            "attribute": 5,
+            "bonus": 1
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 14,
+        "fields": {
+            "background": 6,
+            "attribute": 2,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 15,
+        "fields": {
+            "background": 6,
+            "attribute": 4,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 16,
+        "fields": {
+            "background": 7,
+            "attribute": 2,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 17,
+        "fields": {
+            "background": 7,
+            "attribute": 5,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 18,
+        "fields": {
+            "background": 8,
+            "attribute": 2,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 19,
+        "fields": {
+            "background": 8,
+            "attribute": 3,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 20,
+        "fields": {
+            "background": 9,
+            "attribute": 2,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 21,
+        "fields": {
+            "background": 9,
+            "attribute": 6,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 22,
+        "fields": {
+            "background": 10,
+            "attribute": 2,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 23,
+        "fields": {
+            "background": 10,
+            "attribute": 3,
+            "bonus": 1
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 24,
+        "fields": {
+            "background": 10,
+            "attribute": 5,
+            "bonus": 1
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 25,
+        "fields": {
+            "background": 11,
+            "attribute": 3,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 26,
+        "fields": {
+            "background": 11,
+            "attribute": 1,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 27,
+        "fields": {
+            "background": 12,
+            "attribute": 3,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 28,
+        "fields": {
+            "background": 12,
+            "attribute": 6,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 29,
+        "fields": {
+            "background": 13,
+            "attribute": 3,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 30,
+        "fields": {
+            "background": 13,
+            "attribute": 1,
+            "bonus": 1
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 31,
+        "fields": {
+            "background": 13,
+            "attribute": 2,
+            "bonus": 1
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 32,
+        "fields": {
+            "background": 14,
+            "attribute": 3,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 33,
+        "fields": {
+            "background": 14,
+            "attribute": 4,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 34,
+        "fields": {
+            "background": 15,
+            "attribute": 3,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 35,
+        "fields": {
+            "background": 15,
+            "attribute": 5,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 36,
+        "fields": {
+            "background": 16,
+            "attribute": 4,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 37,
+        "fields": {
+            "background": 16,
+            "attribute": 5,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 38,
+        "fields": {
+            "background": 17,
+            "attribute": 4,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 39,
+        "fields": {
+            "background": 17,
+            "attribute": 1,
+            "bonus": 1
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 40,
+        "fields": {
+            "background": 17,
+            "attribute": 6,
+            "bonus": 1
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 41,
+        "fields": {
+            "background": 18,
+            "attribute": 4,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 42,
+        "fields": {
+            "background": 18,
+            "attribute": 2,
+            "bonus": 1
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 43,
+        "fields": {
+            "background": 18,
+            "attribute": 6,
+            "bonus": 1
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 44,
+        "fields": {
+            "background": 19,
+            "attribute": 4,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 45,
+        "fields": {
+            "background": 19,
+            "attribute": 6,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 46,
+        "fields": {
+            "background": 20,
+            "attribute": 4,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 47,
+        "fields": {
+            "background": 20,
+            "attribute": 3,
+            "bonus": 1
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 48,
+        "fields": {
+            "background": 20,
+            "attribute": 5,
+            "bonus": 1
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 49,
+        "fields": {
+            "background": 21,
+            "attribute": 5,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 50,
+        "fields": {
+            "background": 21,
+            "attribute": 4,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 51,
+        "fields": {
+            "background": 22,
+            "attribute": 5,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 52,
+        "fields": {
+            "background": 22,
+            "attribute": 4,
+            "bonus": 1
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 53,
+        "fields": {
+            "background": 22,
+            "attribute": 6,
+            "bonus": 1
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 54,
+        "fields": {
+            "background": 23,
+            "attribute": 5,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 55,
+        "fields": {
+            "background": 23,
+            "attribute": 2,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 56,
+        "fields": {
+            "background": 24,
+            "attribute": 5,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 57,
+        "fields": {
+            "background": 24,
+            "attribute": 2,
+            "bonus": 1
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 58,
+        "fields": {
+            "background": 24,
+            "attribute": 6,
+            "bonus": 1
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 59,
+        "fields": {
+            "background": 25,
+            "attribute": 5,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 60,
+        "fields": {
+            "background": 25,
+            "attribute": 3,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 61,
+        "fields": {
+            "background": 26,
+            "attribute": 6,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 62,
+        "fields": {
+            "background": 26,
+            "attribute": 4,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 63,
+        "fields": {
+            "background": 27,
+            "attribute": 6,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 64,
+        "fields": {
+            "background": 27,
+            "attribute": 5,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 65,
+        "fields": {
+            "background": 28,
+            "attribute": 6,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 66,
+        "fields": {
+            "background": 28,
+            "attribute": 1,
+            "bonus": 1
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 67,
+        "fields": {
+            "background": 28,
+            "attribute": 3,
+            "bonus": 1
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 68,
+        "fields": {
+            "background": 29,
+            "attribute": 6,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 69,
+        "fields": {
+            "background": 29,
+            "attribute": 2,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 70,
+        "fields": {
+            "background": 30,
+            "attribute": 6,
+            "bonus": 2
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 71,
+        "fields": {
+            "background": 30,
+            "attribute": 3,
+            "bonus": 1
+        }
+    },
+    {
+        "model": "maskedlandsapi.backgroundattributebonus",
+        "pk": 72,
+        "fields": {
+            "background": 30,
+            "attribute": 5,
+            "bonus": 1
+        }
+    }
+]

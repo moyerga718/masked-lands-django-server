@@ -1,0 +1,10 @@
+[
+    {
+        "model": "maskedlandsapi.player",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "bio": "Its a bio about me"
+        }
+    }
+]
