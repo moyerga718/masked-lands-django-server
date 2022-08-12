@@ -52,5 +52,59 @@
             "attribute": 6,
             "value": 13
         }
+    },
+    {
+        "model": "maskedlandsapi.characterattribute",
+        "pk": 7,
+        "fields": {
+            "character": 2,
+            "attribute": 1,
+            "value": 14
+        }
+    },
+    {
+        "model": "maskedlandsapi.characterattribute",
+        "pk": 8,
+        "fields": {
+            "character": 2,
+            "attribute": 2,
+            "value": 14
+        }
+    },
+    {
+        "model": "maskedlandsapi.characterattribute",
+        "pk": 9,
+        "fields": {
+            "character": 2,
+            "attribute": 3,
+            "value": 13
+        }
+    },
+    {
+        "model": "maskedlandsapi.characterattribute",
+        "pk": 10,
+        "fields": {
+            "character": 2,
+            "attribute": 4,
+            "value": 6
+        }
+    },
+    {
+        "model": "maskedlandsapi.characterattribute",
+        "pk": 11,
+        "fields": {
+            "character": 2,
+            "attribute": 5,
+            "value": 7
+        }
+    },
+    {
+        "model": "maskedlandsapi.characterattribute",
+        "pk": 12,
+        "fields": {
+            "character": 2,
+            "attribute": 6,
+            "value": 13
+        }
     }
 ]

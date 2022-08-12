@@ -58,5 +58,65 @@
             "devotion_points": 0,
             "devotion_level": 0
         }
+    },
+    {
+        "model": "maskedlandsapi.characterdevotion",
+        "pk": 7,
+        "fields": {
+            "character": 2,
+            "god": 1,
+            "devotion_points": 0,
+            "devotion_level": 0
+        }
+    },
+    {
+        "model": "maskedlandsapi.characterdevotion",
+        "pk": 8,
+        "fields": {
+            "character": 2,
+            "god": 2,
+            "devotion_points": 1,
+            "devotion_level": 0
+        }
+    },
+    {
+        "model": "maskedlandsapi.characterdevotion",
+        "pk": 9,
+        "fields": {
+            "character": 2,
+            "god": 3,
+            "devotion_points": 0,
+            "devotion_level": 0
+        }
+    },
+    {
+        "model": "maskedlandsapi.characterdevotion",
+        "pk": 10,
+        "fields": {
+            "character": 2,
+            "god": 4,
+            "devotion_points": 2,
+            "devotion_level": 1
+        }
+    },
+    {
+        "model": "maskedlandsapi.characterdevotion",
+        "pk": 11,
+        "fields": {
+            "character": 2,
+            "god": 5,
+            "devotion_points": 0,
+            "devotion_level": 0
+        }
+    },
+    {
+        "model": "maskedlandsapi.characterdevotion",
+        "pk": 12,
+        "fields": {
+            "character": 2,
+            "god": 6,
+            "devotion_points": 0,
+            "devotion_level": 0
+        }
     }
 ]
