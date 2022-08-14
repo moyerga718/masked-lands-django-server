@@ -19,9 +19,21 @@ from django.urls import path
 from rest_framework import routers
 from maskedlandsapi.views import CharacterView
 from maskedlandsapi.views import register_user, login_user
+from maskedlandsapi.views import ArmorView
+from maskedlandsapi.views import CharacterDevotionView
+from maskedlandsapi.views import SpeciesView
+from maskedlandsapi.views import CombatClassView
+from maskedlandsapi.views import BackgroundView
+from maskedlandsapi.views import SubclassView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'characters', CharacterView, 'character')
+router.register(r'armor', ArmorView, 'armor')
+router.register(r'devotion', CharacterDevotionView, 'devotion')
+router.register(r'species', SpeciesView, 'species')
+router.register(r'classes', CombatClassView, 'class')
+router.register(r'backgrounds', BackgroundView, 'background')
+router.register(r'subclasses', SubclassView, 'subclass')
 
 urlpatterns = [
     path('register', register_user),
