@@ -11,6 +11,7 @@ from maskedlandsapi.models import CombatClass
 from maskedlandsapi.models import Subclass
 from maskedlandsapi.models import Weapon
 from maskedlandsapi.models import Armor
+from maskedlandsapi.serializers import CharacterCardSerializer
 
 
 class CharacterView(ViewSet): 
@@ -41,7 +42,7 @@ class CharacterView(ViewSet):
         """
 
         characters = Character.objects.all()
-        serializer = CharacterSerializer(characters, many=True)
+        serializer = CharacterCardSerializer(characters, many=True)
         return Response(serializer.data)
 
     def create(self, request):
