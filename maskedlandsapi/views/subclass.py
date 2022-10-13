@@ -4,6 +4,7 @@ from rest_framework.response import Response
 from rest_framework import serializers, status
 
 from maskedlandsapi.models import Subclass
+from maskedlandsapi.serializers.subclass import SubclassFilterSerializer
 
 
 class SubclassView(ViewSet):
@@ -30,21 +31,10 @@ class SubclassView(ViewSet):
 
     def list(self, request):
         """Handle getting all subclass dictionaries OR all subclass of a certain type.
-
-        Args:
-            request (_type_): _description_
-
-        Returns:
-            _type_: _description_
         """
         subclasses = Subclass.objects.all()
 
-        combat_class = request.query_params.get('class', None)
-        if combat_class is not None:
-            subclasses = subclasses.filter(combat_class=combat_class)
-
-
-        serializer = SubclassSerializer(subclasses, many=True)
+        serializer = SubclassFilterSerializer(subclasses, many=True)
         return Response(serializer.data)
 
 class SubclassSerializer(serializers.ModelSerializer):

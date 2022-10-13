@@ -41,7 +41,21 @@ class CharacterView(ViewSet):
             request (_type_): _description_
         """
 
+        species = request.query_params.get('species', None)
+        background = request.query_params.get('background', None)
+        combat_class = request.query_params.get('combat_class', None)
+        subclass = request.query_params.get('subclass', None)
         characters = Character.objects.all()
+
+        if species != 0:
+            characters = characters.filter(species__id=species)
+        if background != 0:
+            characters = characters.filter(background__id=background)
+        if combat_class != 0:
+            characters = characters.filter(combat_class__id=combat_class)
+        if subclass != 0:
+            characters = characters.filter(subclass__id=subclass)   
+
         serializer = CharacterCardSerializer(characters, many=True)
         return Response(serializer.data)
 
