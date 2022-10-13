@@ -8,7 +8,7 @@ class Subclass(models.Model):
     """
 
     name = models.TextField()
-    combat_class = models.ForeignKey("CombatClass", on_delete=models.CASCADE)
+    combat_class = models.ForeignKey("CombatClass", on_delete=models.CASCADE, related_name="subclasses")
     hit_die = models.IntegerField()
     life = models.IntegerField()
     will = models.IntegerField()

@@ -8,7 +8,7 @@ class Background(models.Model):
     """
 
     name = models.TextField()
-    species = models.ForeignKey("Species", on_delete=models.CASCADE)
+    species = models.ForeignKey("Species", on_delete=models.CASCADE, related_name="backgrounds")
     description = models.TextField()
     image_url = models.TextField()
     

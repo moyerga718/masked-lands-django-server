@@ -4,6 +4,7 @@ from rest_framework.response import Response
 from rest_framework import serializers, status
 
 from maskedlandsapi.models import Species
+from maskedlandsapi.serializers.species import SpeciesFilterSerializer
 
 
 class SpeciesView(ViewSet):
@@ -23,7 +24,7 @@ class SpeciesView(ViewSet):
 
         try:
             species = Species.objects.get(pk=pk)
-            serializer = SpeciesSerializer(species)
+            serializer = SpeciesFilterSerializer(species)
             return Response(serializer.data)
         except Species.DoesNotExist as ex:
             return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND) 
@@ -38,15 +39,5 @@ class SpeciesView(ViewSet):
             _type_: _description_
         """
         species = Species.objects.all()
-        serializer = SpeciesSerializer(species, many=True)
+        serializer = SpeciesFilterSerializer(species, many=True)
         return Response(serializer.data)
-
-class SpeciesSerializer(serializers.ModelSerializer):
-    """JSON serializer for serializer
-
-    Args:
-        serializers (_type_): _description_
-    """
-    class Meta:
-        model = Species
-        fields = ('id', 'name', 'description', 'speed', 'image_url', 'primary_attribute')

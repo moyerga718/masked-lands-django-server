@@ -6,3 +6,10 @@ class SubclassNameSerializer(serializers.ModelSerializer):
     class Meta:
         model = Subclass
         fields = ('name',)
+
+class SubclassFilterSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Subclass
+        fields = ('id','name',)
+        
