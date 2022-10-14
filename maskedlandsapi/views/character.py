@@ -5,6 +5,7 @@ from rest_framework import serializers, status
 from rest_framework.decorators import action
 
 from maskedlandsapi.models import Character
+from maskedlandsapi.models import CharacterAttribute
 from maskedlandsapi.models import Player
 from maskedlandsapi.models import Species
 from maskedlandsapi.models import Background
@@ -13,6 +14,8 @@ from maskedlandsapi.models import Subclass
 from maskedlandsapi.models import Weapon
 from maskedlandsapi.models import Armor
 from maskedlandsapi.serializers import CharacterCardSerializer
+from maskedlandsapi.serializers.character import CharacterSheetSerializer
+from maskedlandsapi.serializers.character_attribute import CharacterAttributeSerializer
 
 
 class CharacterView(ViewSet): 
@@ -26,12 +29,22 @@ class CharacterView(ViewSet):
         """
 
         try:
-            #GET ONE CHARACTER OBJECT THAT MATCHES ID YOU GIVE IT
+            #Get character object
             character = Character.objects.get(pk=pk)
-            #PASS THAT INTO THE CHARACTER SERIALIZER WHICH CONVERTS DB DATA INTO JSON
-            serializer = CharacterSerializer(character)
+
+            #Get Character attributes
+            char_attributes = CharacterAttribute.objects.filter(character__id = character.id)
+
+            #Pass character obj into character sheet serializer. 
+            char_serializer = CharacterSheetSerializer(character)
+            attribute_serializer = CharacterAttributeSerializer(char_attributes, many=True)
+
+            data = {
+                "character": char_serializer.data,
+                "attributes": attribute_serializer.data
+            }
             #RETURN SERIALIZED JSON DATA TO CLIENT
-            return Response(serializer.data)
+            return Response(data)
         except Character.DoesNotExist as ex:
             return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
 
