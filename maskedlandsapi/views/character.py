@@ -2,6 +2,7 @@ from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import serializers, status
+from rest_framework.decorators import action
 
 from maskedlandsapi.models import Character
 from maskedlandsapi.models import Player
@@ -41,20 +42,23 @@ class CharacterView(ViewSet):
             request (_type_): _description_
         """
 
+        name = request.query_params.get('name', None)
         species = request.query_params.get('species', None)
         background = request.query_params.get('background', None)
-        combat_class = request.query_params.get('combat_class', None)
+        combat_class = request.query_params.get('class', None)
         subclass = request.query_params.get('subclass', None)
         characters = Character.objects.all()
 
-        if species != 0:
-            characters = characters.filter(species__id=species)
-        if background != 0:
-            characters = characters.filter(background__id=background)
-        if combat_class != 0:
-            characters = characters.filter(combat_class__id=combat_class)
-        if subclass != 0:
-            characters = characters.filter(subclass__id=subclass)   
+        if name is not None:
+            characters = characters.filter(name__contains=name)
+        if species is not None and species != "0":
+            characters = characters.filter(species__id=int(species))
+        if background is not None and background != "0":
+            characters = characters.filter(background__id=int(background))
+        if combat_class is not None and combat_class != "0":
+            characters = characters.filter(combat_class__id=int(combat_class))
+        if subclass is not None and subclass != "0":
+            characters = characters.filter(subclass__id=int(subclass))
 
         serializer = CharacterCardSerializer(characters, many=True)
         return Response(serializer.data)
