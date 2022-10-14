@@ -32,5 +32,209 @@
             "weapon": 5,
             "armor": 3
         }
+    },
+    {
+        "model": "maskedlandsapi.character",
+        "pk": 3,
+        "fields": {
+            "name": "David",
+            "player": 1,
+            "xp": 50000,
+            "bio": "My guy",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656001534/Character%20Images/hdxoscoynleqbh7q50qg.jpg",
+            "species": 1,
+            "background": 3,
+            "combat_class": 1,
+            "subclass": 2,
+            "weapon": 5,
+            "armor": 3
+        }
+    },
+    {
+        "model": "maskedlandsapi.character",
+        "pk": 4,
+        "fields": {
+            "name": "Sammy Sammy",
+            "player": 1,
+            "xp": 50000,
+            "bio": "the one, the only",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656001534/Character%20Images/hdxoscoynleqbh7q50qg.jpg",
+            "species": 1,
+            "background": 5,
+            "combat_class": 2,
+            "subclass": 4,
+            "weapon": 5,
+            "armor": 3
+        }
+    },
+    {
+        "model": "maskedlandsapi.character",
+        "pk": 5,
+        "fields": {
+            "name": "Jan",
+            "player": 1,
+            "xp": 50000,
+            "bio": "The number one married news team anchor",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656001534/Character%20Images/hdxoscoynleqbh7q50qg.jpg",
+            "species": 2,
+            "background": 7,
+            "combat_class": 3,
+            "subclass": 7,
+            "weapon": 5,
+            "armor": 3
+        }
+    },
+    {
+        "model": "maskedlandsapi.character",
+        "pk": 6,
+        "fields": {
+            "name": "Gorlon",
+            "player": 1,
+            "xp": 50000,
+            "bio": "GORLON",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656001534/Character%20Images/hdxoscoynleqbh7q50qg.jpg",
+            "species": 2,
+            "background": 9,
+            "combat_class": 4,
+            "subclass": 10,
+            "weapon": 5,
+            "armor": 3
+        }
+    },
+    {
+        "model": "maskedlandsapi.character",
+        "pk": 7,
+        "fields": {
+            "name": "Butter Dunnigan",
+            "player": 1,
+            "xp": 50000,
+            "bio": "Mmmmmmm",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656001534/Character%20Images/hdxoscoynleqbh7q50qg.jpg",
+            "species": 3,
+            "background": 12,
+            "combat_class": 5,
+            "subclass": 12,
+            "weapon": 5,
+            "armor": 3
+        }
+    },
+    {
+        "model": "maskedlandsapi.character",
+        "pk": 8,
+        "fields": {
+            "name": "Jeff",
+            "player": 1,
+            "xp": 50000,
+            "bio": "Just jeff",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656001534/Character%20Images/hdxoscoynleqbh7q50qg.jpg",
+            "species": 3,
+            "background": 13,
+            "combat_class": 6,
+            "subclass": 15,
+            "weapon": 5,
+            "armor": 3
+        }
+    },
+    {
+        "model": "maskedlandsapi.character",
+        "pk": 9,
+        "fields": {
+            "name": "Billyyyyy",
+            "player": 1,
+            "xp": 50000,
+            "bio": "BILLYYYYY",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656001534/Character%20Images/hdxoscoynleqbh7q50qg.jpg",
+            "species": 4,
+            "background": 17,
+            "combat_class": 1,
+            "subclass": 1,
+            "weapon": 5,
+            "armor": 3
+        }
+    },
+    {
+        "model": "maskedlandsapi.character",
+        "pk": 10,
+        "fields": {
+            "name": "Fanbroling",
+            "player": 1,
+            "xp": 50000,
+            "bio": "The OG shadowman",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656001534/Character%20Images/hdxoscoynleqbh7q50qg.jpg",
+            "species": 4,
+            "background": 20,
+            "combat_class": 2,
+            "subclass": 4,
+            "weapon": 5,
+            "armor": 3
+        }
+    },
+    {
+        "model": "maskedlandsapi.character",
+        "pk": 11,
+        "fields": {
+            "name": "Franko",
+            "player": 1,
+            "xp": 50000,
+            "bio": "Ok heyyyy now",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656001534/Character%20Images/hdxoscoynleqbh7q50qg.jpg",
+            "species": 5,
+            "background": 23,
+            "combat_class": 3,
+            "subclass": 8,
+            "weapon": 5,
+            "armor": 3
+        }
+    },
+    {
+        "model": "maskedlandsapi.character",
+        "pk": 12,
+        "fields": {
+            "name": "Jimp",
+            "player": 1,
+            "xp": 50000,
+            "bio": "Jimple me grimple",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656001534/Character%20Images/hdxoscoynleqbh7q50qg.jpg",
+            "species": 5,
+            "background": 24,
+            "combat_class": 4,
+            "subclass": 10,
+            "weapon": 5,
+            "armor": 3
+        }
+    },
+    {
+        "model": "maskedlandsapi.character",
+        "pk": 13,
+        "fields": {
+            "name": "Grooooon",
+            "player": 1,
+            "xp": 50000,
+            "bio": "Goan king",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656001534/Character%20Images/hdxoscoynleqbh7q50qg.jpg",
+            "species": 6,
+            "background": 26,
+            "combat_class": 5,
+            "subclass": 11,
+            "weapon": 5,
+            "armor": 3
+        }
+    },
+    {
+        "model": "maskedlandsapi.character",
+        "pk": 14,
+        "fields": {
+            "name": "Tusty",
+            "player": 1,
+            "xp": 50000,
+            "bio": "Tustonimore the tupplemost",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656001534/Character%20Images/hdxoscoynleqbh7q50qg.jpg",
+            "species": 6,
+            "background": 29,
+            "combat_class": 6,
+            "subclass": 14,
+            "weapon": 5,
+            "armor": 3
+        }
     }
 ]
