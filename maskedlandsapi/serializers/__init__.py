@@ -5,3 +5,4 @@ from .combat_class import CombatClassNameSerializer, CombatClassFilterSerializer
 from .subclass import SubclassNameSerializer, SubclassFilterSerializer
 from .armor import ArmorDetailedSerializer
 from .weapon import WeaponDetailedSerializer
+from .spell import SpellSerializer

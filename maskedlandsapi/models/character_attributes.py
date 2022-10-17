@@ -7,6 +7,6 @@ class CharacterAttribute(models.Model):
         models (_type_): _description_
     """
 
-    character = models.ForeignKey("Character", on_delete=models.CASCADE)
+    character = models.ForeignKey("Character", on_delete=models.CASCADE, related_name = "attributes")
     attribute = models.ForeignKey("Attribute", on_delete=models.CASCADE)
     value = models.IntegerField()

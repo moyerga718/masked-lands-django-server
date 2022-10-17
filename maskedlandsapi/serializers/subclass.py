@@ -12,4 +12,6 @@ class SubclassFilterSerializer(serializers.ModelSerializer):
     class Meta:
         model = Subclass
         fields = ('id','name',)
+
+
         

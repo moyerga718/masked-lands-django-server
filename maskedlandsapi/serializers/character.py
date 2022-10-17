@@ -29,4 +29,11 @@ class CharacterSheetSerializer(serializers.ModelSerializer):
     armor = ArmorDetailedSerializer()
     class Meta:
         model = Character
-        fields = ('id','name','player','bio','image_url','species','background','combat_class','subclass','level','weapon','armor')
+        fields = ('id','name','player','bio','image_url',
+        'max_life','max_will','max_stamina','hit_die',
+        'species','background','combat_class','subclass',
+        'level','weapon','armor','ac',
+        'eff_strength','eff_dexterity','eff_constitution','eff_intelligence','eff_attunement','eff_charisma',
+        'str_mod','dex_mod','con_mod','int_mod','att_mod','cha_mod',
+        'sunface_pts','moonface_pts','escritorio_pts','goge_pts','faelina_pts','garthank_pts',
+        'sunface_lvl','moonface_lvl','escritorio_lvl','goge_lvl','faelina_lvl','garthank_lvl')
