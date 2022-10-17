@@ -6,7 +6,7 @@ class SpeciesNameSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Species
-        fields = ('name',)
+        fields = ('name','speed')
 
 class SpeciesFilterSerializer(serializers.ModelSerializer):
 

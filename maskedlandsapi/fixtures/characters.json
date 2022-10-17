@@ -236,5 +236,34 @@
             "weapon": 5,
             "armor": 3
         }
+    },
+    {
+        "model": "maskedlandsapi.character",
+        "pk": 15,
+        "fields": {
+            "name": "Brunth",
+            "player": 1,
+            "xp": 12800,
+            "bio": "Slop man",
+            "image_url": "https://res.cloudinary.com/dfhvmg01x/image/upload/v1656001534/Character%20Images/hdxoscoynleqbh7q50qg.jpg",
+            "species": 6,
+            "background": 29,
+            "combat_class": 6,
+            "subclass": 14,
+            "weapon": 2,
+            "armor": 5,
+            "base_strength": 14,
+            "base_dexterity": 16,
+            "base_constitution": 18,
+            "base_intelligence": 11,
+            "base_attunement": 13,
+            "base_charisma": 15,
+            "sunface_pts": 6,
+            "moonface_pts": 2,
+            "escritorio_pts":1,
+            "goge_pts": 0,
+            "faelina_pts": 2,
+            "garthank_pts": 5
+        }
     }
 ]
